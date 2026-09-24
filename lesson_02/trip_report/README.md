@@ -35,6 +35,8 @@ python3 -m venv .venv
 
 source .venv/bin/activate
 
+cd trip_report
+
 pip install -r requirements.txt
 
 python -m app.main
